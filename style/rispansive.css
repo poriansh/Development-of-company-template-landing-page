@@ -1,0 +1,130 @@
+@media (max-width : 576px){
+
+
+   
+    .footer__right{
+        margin-top: 5rem;
+        justify-content: center;
+        text-align: center;
+    }
+
+
+
+
+
+
+}
+    @media (min-width : 576px){
+    
+    .container{
+    
+        width: 540px;
+    
+    }
+    .services{
+        flex-direction: row;
+    }
+    
+    
+    .footer__caption{
+        max-width: 60rem;
+    }
+    
+    .footer__wrapper{
+        text-align: left;
+    }
+    .footer-app{
+        text-align: left;
+    }
+    
+    
+    }
+    
+    
+    @media (min-width : 768px){
+    
+        .container{
+        
+            width: 720px;
+        
+        }
+        .menue-bar{
+
+            display: none;
+
+        }
+        .menu-mobail{
+            display: none;
+        }
+        .menu-orginal{
+            display: block;
+        }
+        .newsleter{
+            flex-direction: row;
+            text-align: left;
+            padding: 4rem 3rem;
+        }
+        .newsleter::before{
+            display: block;
+            left: -55rem;
+        }
+        *{
+            cursor: default !important;
+            /* رفع کردن بگراند هنگام کلیک در موبایل */
+        }
+        
+        
+    }
+        
+    @media (min-width : 992px){
+    
+        .container{
+        
+            width: 960px;
+        
+        }
+        .header__links {
+            display: flex;
+        }
+        .header__caption {
+            max-width: 50rem;
+        }
+        .footer__wrapper{
+            flex-direction: row;
+        }
+        .footer__right {
+            margin-top: 0;
+        }
+        
+        .scroll-top{
+            right: 30px;
+            left: auto;
+        }
+        .menu-mobail {
+            display: none;
+        }
+        .newsleter::before{
+
+            left: -30rem;
+        }
+
+    }
+
+        
+    @media (min-width : 1200px){
+    
+        .container{
+        
+            width: 1140px ;
+        
+        }
+    }
+    @media (min-width : 1400px ){
+    
+        .container{
+        
+            width: 1370px ;
+        
+        }
+    }
+
